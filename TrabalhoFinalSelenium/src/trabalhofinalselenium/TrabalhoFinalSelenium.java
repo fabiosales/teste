@@ -79,7 +79,5 @@ public class TrabalhoFinalSelenium {
         WebElement botaoInicio = (new WebDriverWait(driver, 30))
                                   .until(ExpectedConditions.presenceOfElementLocated(By.id("global-nav-home")));
         botaoInicio.click();
-        
-        
     }
 }
