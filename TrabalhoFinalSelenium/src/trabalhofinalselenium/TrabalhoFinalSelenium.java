@@ -14,6 +14,7 @@ public class TrabalhoFinalSelenium {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         //abre firefox
         WebDriver driver = new FirefoxDriver();
         
